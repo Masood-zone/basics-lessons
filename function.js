@@ -1,44 +1,52 @@
-const greet = (a , b , )=>{
-    const  c = a + b;
-    // c,'this is an ordinary number'};
-    console.log('is my name', c , y);
-}
-greet('sammy ',  'awusi ', 'and a student of gree?');
+// Scoping - Global Scope, Local Scope
+// Global Scope
+let c;
+const greet = (a, b, y) => {
+  c = a + b;
+  console.log(c, "is my name", y);
+};
+greet("sammy ", "awusi ", "and a student of gree?");
+console.log(c);
 
-//Default function
-function identity(name){
-console.log('Hello ', name);
-}
-identity('AWUSI');// Call back Function
+// Local scope
+// const pay = (x, y) => {
+//   const z = x + y; // Variable z is a local scope
+//   console.log(`It will be equal to ${z}`);
+// };
+// pay(1, 2);
+// console.log(z);
 
-// Arrow function
- const sample = ()=>{
-    let a = 6, b = 9;
-    c = b-a;
-    console.log(c,'is an odd number');
- }
-sample()
+// //Default function
+// function identity(name) {
+//   console.log("Hello ", name);
+// }
+// identity("AWUSI"); // Call back Function
 
-    const greetings =(a, b, y)=>{
-        const c = a + b;
-        console.log(c, y,);
-      }
-     greetings( 'Good ', 'Morning ', 'today is friday');
+// // Arrow function
+// const sample = () => {
+//   let a = 6,
+//     b = 9;
+//   c = b - a;
+//   console.log(c, "is an odd number");
+// };
+// sample();
 
-const  Ahiati = (a, b, y) =>{
-    const c = a + b;
-    console.log(c, y,);
-}
-Ahiati( 'press 1, to talk about your remaining credit ', 'or press 2, to talk about your remaining credit.');
+// const greetings = (a, b, y) => {
+//   const c = a + b;
+//   console.log(c, y);
+// };
+// greetings("Good ", "Morning ", "today is friday");
 
-// variables.
-let a = 'press 1, to talk about your remaining credit ';
-let b = 'or press 2, to talk about your regular call charges';
- console.log( a + b);
+// const Ahiati = (a, b, y) => {
+//   const c = a + b;
+//   console.log(c, y);
+// };
+// Ahiati(
+//   "press 1, to talk about your remaining credit ",
+//   "or press 2, to talk about your remaining credit."
+// );
 
-
-
-
-
-
-
+// // variables.
+// let a = "press 1, to talk about your remaining credit ";
+// let b = "or press 2, to talk about your regular call charges";
+// console.log(a + b);
