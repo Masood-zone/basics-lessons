@@ -2,10 +2,12 @@
 let selectedFruit = ['apple','banana','mango','orange'];
 // printing the first fruit
 console.log(selectedFruit[0])
-
+delete selectedFruit[2];
 // printing the last fruit
 console.log(selectedFruit[3]);
+selectedFruit[4] ='pear'
 
+console.log(selectedFruit);
 // adding fuit to the last of the array
 selectedFruit.push('pineapple');
 console.log(selectedFruit);

@@ -31,8 +31,9 @@ let sammyAwusi= houseNumber > roomOne
 
 // let 2ndName = excel;
 let goodNumber = 66;
-let anerRa = "Samuel"
+let anerRa = "Samuel lives in pokuase currently, Odumase to be precise"
 console.log(anerRa)
+
 
 
 
