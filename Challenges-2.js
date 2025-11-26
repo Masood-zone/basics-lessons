@@ -22,3 +22,10 @@ const users = [
   { name: "Yaw", active: true },
   { name: "Esi", active: false },
 ];
+
+// 1. Use filter to keep only active users.
+const activeUsers = users.filter((user) => user.active === true);
+// 2. Use map to extract only the name property.
+const userNames = activeUsers.map((user) => user.name);
+// 3. Print the result
+console.log(userNames);
