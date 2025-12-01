@@ -5,8 +5,8 @@
 // }
 //  const result = square(5); // Global scope
 
-
 function square(num) {
-    const set =  num * num;
+  const result = num * num;
+  console.log(result);
 }
-console.log(set(5))
+square(5); // Corrected version

@@ -1,5 +1,11 @@
 function greet(name) {
   return `Hello, ${name}!`;
-    
 }
-console.log(greet("Alice"));
+// #1, #2
+const userNames = ["Alice", "Rabbit", "Princess"];
+
+const greetUser = userNames.map((username) => {
+  return greet(username);
+});
+
+console.log(greetUser);
