@@ -18,10 +18,16 @@ function getInitials(userName) {
   let initials = "";
 
   for (let i = 0; i < nameParts.length; i++) {
+    // Operation
     initials += nameParts[i].charAt(0).toUpperCase();
   }
   return initials;
 }
 
-// const name1 = "Ama Kofi";
-// console.log(getInitials(name1));
+/*
+Breakdown:
+1. The function divided the name parts into separate array elements
+2.
+3.
+4.
+*/
