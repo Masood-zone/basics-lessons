@@ -40,7 +40,15 @@ function isAdult(age) {
   }
 }
 
-function getInitials(fullName) {}
+function getInitials(userName) {
+  const nameParts = userName.split(" ");
+  let initials = "";
+
+  for (let i = 0; i < nameParts.length; i++) {
+    initials += nameParts[i].charAt(0).toUpperCase();
+  }
+  return initials;
+}
 
 function buildUserProfile(name, yearOfBirth) {
   const formattedName = format(name);
@@ -56,5 +64,5 @@ function buildUserProfile(name, yearOfBirth) {
   };
 }
 
-const user = buildUserProfile("Samuel", 2000);
+const user = buildUserProfile("Samuel Osei", 2000);
 console.log(user);
